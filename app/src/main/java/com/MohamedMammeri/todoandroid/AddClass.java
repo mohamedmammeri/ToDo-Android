@@ -36,19 +36,19 @@ int priority=1;
             public void onCheckedChanged(RadioGroup radioGroup, int i) {
                 switch (radioGroup.getCheckedRadioButtonId()){
                     case R.id.five:
-                        priority=1;
+                        priority=5;
                         break;
                     case R.id.four:
-                        priority=2;
+                        priority=4;
                         break;
                     case R.id.three:
                         priority=3;
                         break;
                     case R.id.two:
-                        priority=4;
+                        priority=2;
                         break;
                     case R.id.one:
-                        priority=5;
+                        priority=1;
                         break;
                 }
                 contentValues.put(Contract.Entry.COLUMN_PREORITY,priority);
