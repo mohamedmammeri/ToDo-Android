@@ -44,19 +44,19 @@ public class Adapter extends RecyclerView.Adapter<Adapter.viewHolder> {
         int mPriotity=mCursor.getInt(mCursor.getColumnIndex(Contract.Entry.COLUMN_PREORITY));
         int priorityColor=Color.BLUE;
         switch (mPriotity){
-            case 1:
+            case 5:
                 priorityColor=Color.WHITE;
                 break;
-            case 2:
+            case 4:
                 priorityColor=Color.GRAY;
                 break;
             case 3:
                 priorityColor=Color.GREEN;
                 break;
-            case 4:
+            case 2:
                 priorityColor=Color.YELLOW;
                 break;
-            case 5:
+            case 1:
                 priorityColor=Color.RED;
                 break;
         }
